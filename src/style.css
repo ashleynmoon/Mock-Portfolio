@@ -36,6 +36,17 @@ p {
   text-align: center;
 }
 
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
